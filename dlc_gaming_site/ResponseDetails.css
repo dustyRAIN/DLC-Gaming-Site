@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background: #180b17;
+    text-align: center;
+    position: relative;
+    -moz-box-shadow: 4px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 4px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#head_text_container{
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#head_text_container h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#head_text_container h2 i{
+    color: white;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_section{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.labels{
+    font-family: monospace;
+    font-size: 12px;
+    color: #180b17;
+}
+
+.fields{
+    margin-bottom: 20px;
+    margin-top: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #180b17;
+}
+
+#submit_req{
+    background-color: #b40202;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.15s ease-in;
+}
+
+#submit_req:hover{
+    cursor: pointer;
+    background-color: #eb0c0c;
+}
+
+.field_cont input{
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 20px;
+}
+

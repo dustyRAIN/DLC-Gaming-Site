@@ -1,0 +1,574 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+header{
+	margin: 0px;
+	background: #180b17;
+	width:100%;
+	height: 200px;
+	box-shadow: 
+}
+
+#head_top_container{
+	background: #180b17;
+	width:100%;
+	height: 15%;
+}
+
+
+#head_top_right{
+	background-image: url('images/top_back.jpg');
+	background-size: 100% 100%;
+	width:40%;
+	height: 100%;
+	float: right;
+}
+
+#head_middle_container{
+	background: #180b17;
+	width:100%;
+	height: 60%;
+}
+
+#head_middle_left{
+	background: #180b17;
+	width:70%;
+	height: 100%;
+	float: left;
+}
+
+#head_bottom_container{
+	background: #180b17;
+	width:100%;
+	height: 25%;
+}
+
+#head_bottom_left{
+	background: #180b17;
+	width:25%;
+	height: 100%;
+	float: left;
+}
+
+#head_bottom_left_top{
+	width:100%;
+	height: 50%;
+
+}
+
+#head_bottom_left_bottom{
+	width:100%;
+	height: 50%;
+}
+
+#head_bottom_right{
+	background-image: url('images/bottom_back.jpg');
+	background-size: 100% 100%;
+	width:30%;
+	height: 100%;
+	float: right;
+}
+
+#search_field{
+	float: left;
+	height: 100%;
+	width: 75%;
+}
+
+#search_field input{
+	height: 83%;
+	width: 100%;
+	float: center;
+	background-color: #eeeeee;
+}
+
+#search_button{
+	background: #6110a5;
+	float: right;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+
+#search_button a{
+	text-decoration:none;
+	font-size:16px;
+	display:inline-block;
+	color: white;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.searh_result_container{
+	top: 32%;
+	width: 25.1%;
+	background: #eeeeee;
+	z-index: 12;
+	position: absolute;
+	display: none;
+}
+
+#search_result_list li{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: .1px solid #d1d1d1;
+}
+
+#search_result_list li a{
+	text-decoration: none;
+	color: #180b17;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+}
+
+#search_result_list{
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+	max-height: 400px;
+	overflow: scroll;
+}
+
+#top_bar_links{
+	float: left;
+	margin-left: 10%;
+	margin-top: 3px;
+	height: 100%;
+	width: 60%;
+}
+
+#top_bar_follow{
+	float: right;
+	margin-right: 5%;
+	margin-top: 3px;
+	height: 100%;
+	width: 25%;
+}
+
+.top_bar_list{
+	list-style-type: none;
+}
+
+.top_bar_list_follow{
+	list-style-type: none;
+}
+
+.top_bar_list_style{
+	margin-top: 0px;
+	float:left;
+}
+
+.top_bar_image_style{
+	margin-top: 0px;
+	float:right;
+}
+
+.top_bar_list_style a{
+	text-decoration:none;
+	font-size:12px;
+	display:inline-block;
+	color:#180b17;
+	padding-left:25px;
+}
+
+.top_bar_image_style a{
+	text-decoration:none;
+	font-size:12px;
+	display:inline-block;
+	color:#180b17;
+}
+
+.bottom_login_area{
+	float: left;
+	margin-left: 10%;
+	padding-left: 2%;
+	list-style-type: none;
+}
+
+
+#not_logged_login_area{
+	visibility: collapse;
+}
+
+#logged_login_area{
+	visibility: visible;
+}
+
+.bottom_login_plain_text{
+	float: left;
+	margin-top: 13px;
+}
+
+.bottom_login_button{
+	float: left;
+	margin-left: 15px;
+	margin-top: 7px;
+}
+
+.bottom_login_plain_text p{
+	text-decoration:none;
+	font-size:12px;
+	display:inline-block;
+	color:#180b17;
+	padding-left:15px;
+}
+
+.bottom_login_button a{
+	text-decoration:none;
+}
+
+.bottom_login_button button{
+	background-color: #b40202;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.15s ease-in;
+}
+
+
+
+#sin_button{
+	background: #180b17;
+}
+
+#log_button{
+	background: #850000;
+}
+
+#sin_button:hover{
+	cursor: pointer;
+	background-color: #6110a5;
+}
+
+#log_button:hover{
+	cursor: pointer;
+	background-color: #6110a5;
+}
+
+#logout_container{
+	background-image: url('images/ic_logout.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	width: 30px;
+	height: 30px;
+}
+
+.bottom_login_logout{
+	float: right;
+	margin-top: 9px;
+}
+
+.bottom_login_username{
+	float: right;
+	margin-top: 15px;
+	margin-left: 50px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#username{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #180b17;
+	font-weight: bold;
+}
+
+
+
+.middle_part{
+	
+	margin-bottom: 5px;
+}
+
+
+.slider_container{
+	background-image: url(images/game_preview_1.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;
+	width: 100%;
+	margin: auto;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+.sliding_content{
+	width: 500%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+}
+
+
+.game_desc_container{
+	position: absolute;
+	
+	background: #180b17;
+	opacity: 70%;
+	
+	width: 45.5%;
+	height:100%;
+	z-index: 10;
+	text-align: center;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 2.5%;
+	padding-bottom: 5%;
+}
+
+.slide_game_details{
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+
+.slide_ask_to_upload{
+	width: 100%;
+	height: 40%;
+	text-align: center;
+}
+
+.slide_game_details p, .slide_game_details a,
+.slide_ask_to_upload p, .slide_ask_to_upload a{
+	color: #f8e5f7;
+	text-decoration: none;
+	font-family: 'Segoe UI';
+}
+
+#slide_game_title{
+	font-size: 30px;
+	
+}
+
+#slide_game_desc{
+	font-size: 18px;
+	margin-top: 5%;
+}
+
+#slide_game_req_ques{
+	font-size: 16px;
+
+}
+
+#slide_req_game_up{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#slide_req_game_up:hover{
+	text-decoration: underline;
+	color: white;
+	text-decoration: none;
+}
+.lower_fixed_header{
+	position: relative;
+	width: 90%;
+	height: 80px;
+	background: #180b17;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.headerFixed{
+	position: fixed;
+	top: 0%;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 10;
+}
+.lower_header_left{
+	width: 40%;
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	position: absolute;
+}
+.lower_header_left p{
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 15px;
+}
+.lower_header_right{
+	width: 40%;
+	height: 60px;
+	right: 5%;
+	margin-top: 10px;
+	position: absolute;
+}
+#button_sort{
+	padding: 2px;
+	background-color: #b40202;
+	margin-top:15px;
+	position: absolute;
+	right:5%;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.15s ease-in;
+}
+#button_sort:hover{
+	cursor: pointer;
+	background-color: #6110a5;
+}
+.lower_part{
+	width: 100%;
+	height: 5000px;
+	background: #6110a5;
+	position: relative;
+}
+
+.this_part_will_be_faded_away{
+	position: absolute;
+	bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+.this_part_will_be_faded_away p{
+	color: white;
+	font-size: 20px;
+}
+.div_slider{
+	height: 100%;
+	width: 100%;
+}
+.dot1{
+	right: 7%;
+}
+.dot2{
+	right: 5%;
+}
+.dot3{
+	right: 3%;
+}
+.dot1, .dot2, .dot3 {
+	bottom: 3%;
+	position: absolute;
+  	cursor: pointer;
+  	height: 8px;
+  	width: 8px;
+  	background-color: #fff;
+  	border-radius: 50%;
+  	transition: background-color 0.4s ease;
+  	z-index: 10;
+}
+.active, .dot1:hover, .dot2:hover, .dot3:hover {
+  background-color: #850000;
+}
+#div_slider_first,
+#div_slider_1{
+	background-image: url('images/game_preview_1.jpg');
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+#div_slider_2{
+	background-image: url('images/game_preview_2.jpg');
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+#div_slider_last,
+#div_slider_3{
+	background-image: url('images/game_preview_3.jpg');
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+.request_details{
+	width: 100%;
+}
+.request_details p{
+	color: #A9A9A9;
+	font-size: 50px;
+	font-family: serif;
+}
+.name_details{
+	width: 100%;
+	height: 40px; 
+	margin-top: 10px;
+}
+#name_info{
+	margin-top: 20px;
+}
+#game_info{
+	height: 80px;
+	font-size:  15px;
+}
+.label p{
+	margin-top: 10px;
+	color: white;
+	font-size: 10px;
+	font-family: serif;
+	font-size: 15px;
+}
+.label{
+	width: 25%;
+	height: 100%;
+	float:left;
+	text-align: center;
+}
+#choosefile{
+	color: white;
+	float: left;
+}
+#select_file{
+	margin-top: 12px;
+	margin-left: 0px;
+	background: none;
+	
+
+}
+.namesize{
+	height: 100%;
+	width: 100%;
+	font-size: 15px; 
+}
+.label_input{
+	background: white;
+	height: 100%;
+	width: 75%;
+	float: left;
+}
+#Submit_file{
+	background-color: #ff0000;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.15s ease-in;
+}
+
+#Submit_file:hover{
+	cursor: pointer;
+	background-color: #f81c1c;
+}
+
+#mselect{
+	width:100%;
+	height:100%;
+}
+
+
+#site_name{
+	margin-left: 40px;
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

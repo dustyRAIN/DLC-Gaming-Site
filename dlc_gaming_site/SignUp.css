@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    background-image: url('images/sign_up_back.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.labels{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.field_container{
+    margin-top: 20px;
+}
+
+.stat_cont{
+    float: right;
+    width: 0px;
+}
+
+.stat_cont p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: italic;
+    visibility: hidden;
+}
+
+.fields{
+    float: right;
+    margin-right: 10%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 20px;
+}
+
+form{
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: white;
+    opacity: .8;
+    width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+form h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+#first_inp_cont{
+    margin-top: 50px;
+}
+
+.butt_signup{
+    position: absolute;
+    right: 5%;
+    padding: 2px;
+	background-color: #b40202;
+	margin-top:25px;
+	margin-bottom: 10px;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	transition: background-color 0.15s ease-in;
+}
+
+.butt_signup:hover{
+	cursor: pointer;
+	background-color: #6110a5;
+}
+
+.butt_container{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    height: 100px;
+}
